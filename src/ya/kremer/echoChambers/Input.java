@@ -1,4 +1,4 @@
-package ya.kremer.echoChamber;
+package ya.kremer.echoChambers;
 
 public class Input {
 
