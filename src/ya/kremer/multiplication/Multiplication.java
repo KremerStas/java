@@ -1,4 +1,4 @@
-package ya.kremer.multiplications;
+package ya.kremer.multiplication;
 
 public class Multiplication {
 
