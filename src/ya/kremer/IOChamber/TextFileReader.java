@@ -11,8 +11,13 @@ public class TextFileReader {
 //        String inputFileName = "./src/ya/kremer/IOChamber/file.txt";
         BufferedReader reader = new BufferedReader(new FileReader(inputFileName));
             String line;
+            int i = 1;
             while ((line = reader.readLine()) != null) {
-                System.out.println(line + "\n");
+                if (i % 2 != 0){
+                System.out.println(line);
+                i += 1;
+                }
+                else {i+=1;}
             }
     }
 }
